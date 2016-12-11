@@ -10,7 +10,17 @@ gulp.task('serve', function () {
 	//Variables para que sepa que archivos refrescar 
 	 var files = [
     	'./style.css',
-    	'./*.php'
+    	'./*.php',
+        '**/*.js',
+                '**/*.svg',
+                '**/*.ttf',
+                '**/*.otf',
+                '**/*.eot',
+                '**/*.woff',
+                '**/*.woff2',
+
+                // include specific files and folders
+                'screenshot.png',
     	];
 
     // Serve files from the root of this project
