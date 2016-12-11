@@ -11,3 +11,38 @@
 </head>
 
 <body>
+<header>
+<div class="container">
+	<div class="row">
+		<!-- Menu -->
+		<div class="col-md-offset-2 col-md-8">			
+			<div class="header__nav">								
+				<nav class="navbar navbar-default">
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+								      
+				    </div>
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					    <?php
+					        wp_nav_menu( array(
+					            'theme_location' => 'menu_principal',
+					            'depth' => 2,
+					            'container' => false,
+					            'menu_class' => 'nav navbar-nav',
+					            'fallback_cb' => 'wp_page_menu',
+					            //Process nav menu using our custom nav walker
+					            'walker' => new wp_bootstrap_navwalker())
+					        );
+					    ?>
+					</div><!-- /.navbar-collapse --> 									    
+				</nav> 
+			</div>
+		</div><!-- / Menu  -->
+	</div>
+</div>
+
