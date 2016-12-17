@@ -4,7 +4,6 @@
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width,  minimum-scale=1,  maximum-scale=1">
 	<title><?php wp_title('&raquo;', true, 'right'); ?><?php bloginfo('name'); ?></title>
-
 	
 	<?php wp_head(); ?>
 	
@@ -12,37 +11,48 @@
 
 <body>
 <header>
-<div class="container">
-	<div class="row">
-		<!-- Menu -->
-		<div class="col-md-offset-2 col-md-8">			
-			<div class="header__nav">								
-				<nav class="navbar navbar-default">
-				    <div class="navbar-header">
-				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-				        <span class="sr-only">Toggle navigation</span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				      </button>
-								      
-				    </div>
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					    <?php
-					        wp_nav_menu( array(
-					            'theme_location' => 'menu_principal',
-					            'depth' => 2,
-					            'container' => false,
-					            'menu_class' => 'nav navbar-nav',
-					            'fallback_cb' => 'wp_page_menu',
-					            //Process nav menu using our custom nav walker
-					            'walker' => new wp_bootstrap_navwalker())
-					        );
-					    ?>
-					</div><!-- /.navbar-collapse --> 									    
-				</nav> 
-			</div>
-		</div><!-- / Menu  -->
+	<div class="container">
+		<div class="row">
+			<?php 
+				get_template_part('parts/menu','top');
+			?>
+		</div>
 	</div>
+</header>
+
+<!-- Set up your HTML -->
+<div class="slide">
+
+	<?php
+	$args = array('pagename' => 'inicio');
+	$loop = new WP_Query($args);
+
+	if ( $loop->have_posts() ) : while ( $loop->have_posts() ) : $loop->the_post(); ?>
+	<?php 
+		$slide1 = get_field('slide_imagen_1');
+
+	?>
+	<!-- post -->
+	<?php endwhile; ?>
+	<!-- post navigation -->
+	<?php else: ?>
+	<!-- no posts found -->
+	<?php endif; ?>
+
+
+  <div class="slide__item" style="background-image: url(<?php echo $slide1['url'];?>);">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-md-6">
+  					<h3><?php the_title(); ?></h3>
+  					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem in molestias animi doloremque nihil cum illo commodi, quae suscipit eveniet a tempore veniam quasi reiciendis. Minus placeat sequi, dolores nisi!</p>
+  				</div>
+  			</div>
+  		</div>
+  </div>
+  <div class="slide__item">your content</div>
+  <div class="slide__item">your content</div>
 </div>
+		
+
 

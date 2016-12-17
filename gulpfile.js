@@ -11,6 +11,7 @@ gulp.task('serve', function () {
 	 var files = [
     	'./style.css',
     	'./*.php',
+        './parts/*.php',
         '**/*.js',
                 '**/*.svg',
                 '**/*.ttf',
