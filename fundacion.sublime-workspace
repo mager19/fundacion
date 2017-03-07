@@ -1,0 +1,533 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wp_reset_",
+				"wp_reset_query"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"text-d",
+				"text-decoration"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"c",
+				"cover"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"marig",
+				"margin-left"
+			],
+			[
+				"pos",
+				"pos-r\tposition: relative;"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"background",
+				"background-image"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"bakc",
+				"background-color"
+			],
+			[
+				"the_ti",
+				"the_title"
+			],
+			[
+				"get_template",
+				"get_template_part"
+			],
+			[
+				"wp_enque",
+				"wp_enqueue_style"
+			],
+			[
+				"paddon",
+				"padding-top"
+			],
+			[
+				"input",
+				"input--large"
+			],
+			[
+				"marign",
+				"margin-top"
+			],
+			[
+				"margn",
+				"margin-left"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"add_setting",
+				"add_settings_field"
+			],
+			[
+				"add_se",
+				"add_settings_section"
+			],
+			[
+				"border",
+				"border-top-left-radius"
+			],
+			[
+				"border-lef",
+				"border-top-left-radius"
+			],
+			[
+				"get_tempal",
+				"get_template_directory_uri"
+			],
+			[
+				"get_temp",
+				"get_template_directory_uri"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"text-a",
+				"text-align"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "sync",
+		"selected_items":
+		[
+			[
+				"sync",
+				"Sync Settings: Create and Upload"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"fake",
+				"Snippet: fakeimg"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"boxy",
+				"Boxy Theme: Activation"
+			]
+		],
+		"width": 442.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/I/xampp/htdocs/fundacion/wp-content/themes/theme-fundacion"
+	],
+	"file_history":
+	[
+		"/I/xampp/htdocs/fundacion/wp-content/themes/fundacion/functions.php",
+		"/E/desarrollo/theme-fundacion/index.php",
+		"/E/desarrollo/theme-fundacion/header.php",
+		"/E/desarrollo/theme-fundacion/functions.php",
+		"/E/desarrollo/tema_portafolio/functions.php",
+		"/C/Users/pcGrande/Local Sites/portafolio/app/public/wp-content/themes/portafolio/template-parts/nav-principal.php",
+		"/C/Users/pcGrande/Local Sites/portafolio/app/public/wp-content/themes/portafolio/style.css",
+		"/C/Users/pcGrande/Local Sites/portafolio/app/public/wp-content/themes/portafolio/functions.php",
+		"/C/Users/pcGrande/Local Sites/portafolio/app/public/wp-content/themes/portafolio/header.php",
+		"/C/Users/pcGrande/AppData/Roaming/Sublime Text 3/Packages/User/SyncSettings.sublime-settings",
+		"/C/Users/pcGrande/AppData/Roaming/Sublime Text 3/Packages/Sync Settings/SyncSettings.sublime-settings",
+		"/I/tcaster/header.php",
+		"/C/Users/pcGrande/Local Sites/portafolio/app/public/wp-content/themes/portafolio/inc/extras.php",
+		"/I/tcaster/template-parts/nav-principal.php",
+		"/I/tcaster/functions.php",
+		"/E/desarrollo/PTF/css/style.css",
+		"/C/Users/pcGrande/Local Sites/portafolio/app/public/wp-content/themes/portafolio/index.php",
+		"/C/Users/pcGrande/Local Sites/portafolio/app/public/wp-content/themes/portafolio/package.json",
+		"/E/desarrollo/PTF/index.html",
+		"/I/Nos/.env",
+		"/E/Dropbox/MIS DESARROLLOS/Forum/index.html",
+		"/E/Dropbox/MIS DESARROLLOS/Forum/css/style.css",
+		"/C/Users/pcGrande/AppData/Roaming/Sublime Text 3/Packages/User/container.sublime-snippet",
+		"/C/Users/pcGrande/Desktop/index.html",
+		"/E/Dropbox/MIS DESARROLLOS/Forum/css/bootstrap.css",
+		"/E/Dropbox/MIS DESARROLLOS/Forum/gulpfile.js",
+		"/E/desarrollo/CRMLEX/gulpfile.js",
+		"/E/Dropbox/MIS DESARROLLOS/Forum/package.json",
+		"/E/desarrollo/nos/gulpfile.js",
+		"/C/Users/pcGrande/Desktop/arrancaserver",
+		"/C/Users/pcGrande/AppData/Roaming/Sublime Text 3/Packages/WakaTime/WakaTime.sublime-settings",
+		"/C/Users/pcGrande/AppData/Roaming/Sublime Text 3/Packages/User/WakaTime.sublime-settings",
+		"/I/Nos/public/css/style.css",
+		"/I/Nos/resources/views/user_story/form.blade.php",
+		"/I/Nos/resources/views/layouts/engineerCardsDashboard.blade.php",
+		"/I/Nos/resources/views/user_story/index.blade.php",
+		"/I/Nos/resources/views/engineer_card_note/form.blade.php",
+		"/I/Nos/resources/views/engineer_card_note/form.blade_.php",
+		"/I/Nos/resources/views/engineer_card_note/index.blade.php",
+		"/C/Users/pcGrande/Desktop/not.php",
+		"/C/Users/pcGrande/Desktop/form.blade2.php",
+		"/I/Nos/resources/views/engineer_card/form.blade.php",
+		"/I/Nos/resources/views/user_story_note/form.blade.php",
+		"/I/Nos/public/js/engineerCardForm.js",
+		"/I/Nos/resources/views/user_story_engineer_card/form.blade.php",
+		"/I/Nos/resources/views/hour/form.blade.php",
+		"/I/Nos/resources/views/engineer_card/index.blade.php",
+		"/I/Nos/resources/views/hour/index.blade.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/style.css",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/footer.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/index.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/inc/customizer.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/template-parts/specials.php",
+		"/I/tcaster/template-parts/nav-social.php",
+		"/I/tcaster/inc/customizer.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/template-parts/menu.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/header.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/functions.php",
+		"/I/tcaster/index.php",
+		"/I/tcaster/single.php",
+		"/I/tcaster/template-parts/content-page.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/inc/custom_post_type.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/template-parts/slide-menu.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/template-parts/content.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/index.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/functions.php",
+		"/C/Users/pcGrande/Desktop/mario.php",
+		"/C/Users/pcGrande/Desktop/form.blade.php",
+		"/C/Users/pcGrande/Desktop/Home",
+		"/E/marioform.blade.php",
+		"/I/Nos/app/Http/Models/CompanyModel.php",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/I/nos2/resources/views/user_story/form.blade.php",
+		"/I/Nos/resources/views/user_story_engineer_card/index.blade.php",
+		"/I/Nos/resources/views/layouts/includes/bottomInclude.blade.php",
+		"/I/Nos/routes/web.php",
+		"/I/Nos/resources/views/engineer_card/index.blade_1.php",
+		"/C/php/php.ini-development",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/inc/function-admin.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/style.css",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/404.php",
+		"/I/tcaster/archive.php",
+		"/I/xampp/htdocs/portafolio/Movefile",
+		"/C/Users/pcGrande/Desktop/tp4.m3u",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/inc/templates/theme-admin.php",
+		"/E/desarrollo/tema_portafolio/inc/function_admin.php",
+		"/E/desarrollo/tema_portafolio/inc/templates/theme-admin.php",
+		"/E/desarrollo/tema_portafolio/header.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/header.php",
+		"/C/Users/pcGrande/Desktop/example/tabbed-panels.css",
+		"/C/Users/pcGrande/Desktop/example/tabbed-panels.html",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/footer.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/twentyseventeen/index.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/template-parts/content-none.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/template-parts/content-page.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme-bugacity/template-parts/content-page.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme-bugacity/index.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tcaster/index.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme-bugacity/template-parts/content-none.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme-bugacity/footer.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme-bugacity/style.css",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme-bugacity/header.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme-bugacity/template-parts/content.php",
+		"/I/xampp/htdocs/pruebas/wp-content/themes/tcaster/template-parts/nav-social.php",
+		"/I/xampp/htdocs/pruebas/wp-content/themes/tcaster/header.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme-bugacity/functions.php",
+		"/I/xampp/htdocs/pruebas/wp-content/themes/tcaster/functions.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme_bugacity/index.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme_bugacity/functions.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme_bugacity/header.php",
+		"/I/xampp/htdocs/portafolio/wp-config.php",
+		"/C/Users/pcGrande/Desktop/prue.m3u",
+		"/C/Users/pcGrande/Desktop/sgeo.m3u",
+		"/I/xampp/htdocs/pruebas/wp-content/themes/tcaster/style.css",
+		"/C/Users/pcGrande/Desktop/enlighten/inc/customizer.php",
+		"/I/xampp/htdocs/pruebas/wp-content/themes/tcaster/index.php",
+		"/C/Users/pcGrande/Desktop/enlighten/template-parts/section-client.php",
+		"/C/Users/pcGrande/Desktop/enlighten/index.php",
+		"/I/xampp/htdocs/pruebas/wp-content/themes/tcaster/inc/customizer.php",
+		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/listo sin imagenes/445 24 de mayo.html",
+		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/listo sin imagenes/660 24 de mayo.html",
+		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/listo sin imagenes/670 24 de mayo.html",
+		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/listo sin imagenes/1213 24 de mayo.html",
+		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/listo sin imagenes/1245 24 de mayo.html",
+		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/listo sin imagenes/1275 10 de mayo.html",
+		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/listo sin imagenes/6120 24 de mayo.html",
+		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/listo sin imagenes/12120 24 de mayo.html",
+		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/faltan por revisar/12350 24 de mayo.html"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 132.0,
+		"where_history":
+		[
+			"<project>",
+			"I:\\",
+			"I:\\Nos",
+			"<project>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"255",
+			"wiltonwings",
+			"18",
+			"-",
+			"600",
+			"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quam rerum a aliquam recusandae dolorum eum quibusdam possimus, aperiam velit, error animi natus corporis? Perferendis fuga, accusantium ab ratione quo.",
+			"3",
+			"col-md-3",
+			"1",
+			"-",
+			"60vh",
+			"Header--left",
+			"value",
+			"getUserStoryEngineerCards",
+			"getUserStoryEngineerCards();",
+			"2",
+			"1",
+			"Name",
+			"name",
+			"special-1",
+			"3",
+			"as",
+			"10",
+			"2",
+			"form-group",
+			">\n",
+			"2",
+			"<label for=\"idrisk\" ",
+			"title",
+			"ing__cards",
+			"<div id=\"divUser3\" class=\"col-md-6\" style=\"border: 1px solid;\">",
+			"fff",
+			"loading__loader",
+			".modal-content ",
+			".loading-bar",
+			".loading_content",
+			"notes",
+			"card members",
+			"members",
+			"ssl",
+			"intro_slide",
+			"settings",
+			"temasectionuno",
+			"temasectiondos",
+			"ddd",
+			"margin-right",
+			"espn",
+			"fOX"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "fundacion.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 270.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
